@@ -302,7 +302,7 @@
         Num {
             bindings = <
 &trans  &kp LEFT_BRACKET  &kp N7  &kp N8   &kp N9  &kp RIGHT_BRACKET       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp SEMICOLON     &kp N4  &kp N5   &kp N6  &kp EQUAL               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp SEMICOLON     &kp N4  &kp N5   &kp N6  &kp EQUAL               &trans  &hm RIGHT_SHIFT J  &hm RIGHT_GUI K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON  &trans
 &trans  &kp GRAVE         &kp N1  &kp N2   &kp N3  &kp NON_US_BACKSLASH    &trans  &trans  &trans  &trans  &trans  &trans
                                   &kp DOT  &kp N0  &kp MINUS               &trans  &trans  &trans
             >;
