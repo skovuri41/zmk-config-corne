@@ -191,7 +191,7 @@
             >;
         };
 
-        NAV {
+        NAVORIG {
             display-name = "NavNum";
 
             // -----------------------------------------------------------------------------------------
@@ -251,6 +251,15 @@
 &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &trans  &hm RIGHT_SHIFT J  &hm RIGHT_GUI K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON  &trans
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &trans  &trans             &trans           &trans           &trans               &trans
                          &trans  &trans  &trans             &trans  &trans             &trans
+            >;
+        };
+
+        NAV {
+            bindings = <
+&trans  &trans              &trans          &trans          &trans            &trans    &kp C_AC_REDO  &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT  &kp C_AC_UNDO  &trans
+&trans  &hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LEFT_GUI D  &hm LEFT_SHIFT F  &trans    &kp CAPS       &kp LEFT        &kp DOWN       &kp UP        &kp RIGHT      &trans
+&trans  &trans              &trans          &trans          &trans            &trans    &kp INSERT     &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END        &trans
+                                            &trans          &trans            &trans    &trans         &trans          &trans
             >;
         };
     };
