@@ -241,7 +241,7 @@
 &trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans             &trans           &trans           &trans               &trans
 &trans  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &hm RIGHT_SHIFT J  &hm RIGHT_GUI K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON  &trans
 &trans  &kp TILDE       &kp EXCLAMATION  &kp AT                &kp HASH               &kp PIPE           &trans  &trans             &trans           &trans           &trans               &trans
-                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS          &trans  &trans             &trans
+                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans             &trans
             >;
         };
 
