@@ -226,10 +226,10 @@
 
         NAV {
             bindings = <
-&browsertab  &trans              &trans          &trans          &trans            &trans    &kp C_AC_REDO   &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT  &kp C_AC_UNDO  &trans
-&trans       &hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LEFT_GUI D  &hm LEFT_SHIFT F  &trans    &kp LEFT_ARROW  &kp DOWN        &kp UP         &kp RIGHT     &mkp MB4       &kp LC(TAB)
-&trans       &trans              &trans          &trans          &trans            &trans    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP    &kp END       &mkp MB5       &kp RC(RS(TAB))
-                                                 &trans          &trans            &trans    &trans          &trans          &trans
+&browsertab  &trans              &trans          &trans          &trans            &trans    &mkp MB4        &kp RC(TAB)    &kp RC(RS(TAB))  &mkp MB5   &trans  &trans
+&trans       &hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LEFT_GUI D  &hm LEFT_SHIFT F  &trans    &kp LEFT_ARROW  &kp DOWN       &kp UP           &kp RIGHT  &trans  &trans
+&trans       &trans              &trans          &trans          &trans            &trans    &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP      &kp END    &trans  &trans
+                                                 &trans          &trans            &trans    &trans          &trans         &trans
             >;
 
             label = "Nav";
