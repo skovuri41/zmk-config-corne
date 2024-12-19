@@ -271,8 +271,8 @@
         Mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp C_AC_REDO   &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT     &kp C_AC_UNDO  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT  &mkp MB4       &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &mkp MB5       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT  &mkp MB4       &kp RC(TAB)
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT  &mkp MB5       &kp RC(RS(TAB))
                         &trans  &trans  &trans    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
 
